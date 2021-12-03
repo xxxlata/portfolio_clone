@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+nav{
+    background-image: url(https://cdg-portfolio.com/images/masthead.jpg);
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 205vh;
+}    
