@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+nav{
+    position: relative;
+    clear: both;
+}
+
+.bg_position{
+    background: linear-gradient(
+        180deg,rgba(112,93,80,.8) 0,rgba(112,93,80,.8) 90%), url(img/masthead.jpg) ;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    clear: both;
+}
+
+.nav_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.616);
+
+}
+
+.logo{
+    margin: 0 1rem;
+}
+
+.logo a{
+    font-size: 1.7rem;
+    font-weight: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav_box_menu a{
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+    font-weight: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.sub_text{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.sub_text_area{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 1000;
+}
+
+.sub_text_line{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.sub_text_line_inner{
+    height: 3px;
+    width: 50px;
+    background-color: tomato;
+}
+
+.sub_text h3{
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.sub_text_btn{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.sub_text_btn_inner{
+    background-color: tomato;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+}
+
+.sub_text_btn_inner a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.logo:hover{
+    color: white;
+}
+
+.nav_box_menu a:hover{
+    color: white;
+}
+
+.sub_text_btn_inner:hover{
+    background-color: rgb(253, 67, 34);
+}
