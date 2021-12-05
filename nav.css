@@ -5,21 +5,14 @@ body{
 }
 
 nav{
-    position: relative;
-    clear: both;
-}
-
-.bg_position{
     background: linear-gradient(
         180deg,rgba(112,93,80,.8) 0,rgba(112,93,80,.8) 90%), url(img/masthead.jpg) ;
     background-size: cover;
     z-index: -1;
-    position: absolute;
     background-repeat: no-repeat;
     background-position: center;
     height: 80vh;
     width: 100%;
-    clear: both;
 }
 
 .nav_box{
@@ -29,7 +22,6 @@ nav{
     padding: 1.5rem 0;
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.616);
-
 }
 
 .logo{
