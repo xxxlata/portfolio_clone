@@ -1,0 +1,90 @@
+#archiving_point{
+    color:rgba(241, 239, 239, 0.288);
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+#archiving_point:hover{
+    color:rgba(241, 239, 239, 0.61);
+}
+
+.title_archiving{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.title_archiving div{
+    color: white;
+    border-bottom: 1px solid rgba(250, 248, 248, 0.363);
+}
+
+.archiving{
+    background-color: black;
+    padding-bottom: 5rem;
+}
+
+.archiving_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.archiving_page div{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 1rem 3rem 1rem;
+}
+
+.github_box{
+    font-size: 1.1rem;
+}
+
+.github_box:hover{
+    transform: translateY(0.5rem);
+}
+
+.github_box img{
+    width: 60%;
+    display: block;
+    margin: 1rem;
+}
+
+.github_box span{
+    font-weight: bolder;
+}
+
+.github_box a{
+    text-decoration: underline;
+    padding-left: 2.3rem;
+    color: cornflowerblue;
+}
+
+.t_box{
+    font-size: 1.1rem;
+}
+
+.t_box:hover{
+    transform: translateY(0.5rem);
+}
+
+.t_box img{
+    width: 60%;
+    display: block;
+    margin: 1.2rem 1rem 1rem 1rem;
+}
+
+.t_box a{
+    text-decoration: underline;
+    padding-left: 2.3rem;
+    color: cornflowerblue;
+}
+
+
+
+

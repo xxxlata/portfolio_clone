@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="archiving.css">
+    <link rel="stylesheet" href="projects.css">
     <title>KJH's Portfolio</title>
 </head>
 <body>
@@ -18,11 +20,11 @@
                 <a href=""><span>KJH's Portfolio</span></a>
             </div>
             <div class="nav_box_menu"> 
-                <a href=""><span>About me</span></a>
-                <a href=""><span>Skills</span></a>
-                <a href=""><span>Archiving</span></a>
-                <a href=""><span>Projects</span></a>
-                <a href=""><span>Career</span></a>
+                <a href="#about_point"><span>About me</span></a>
+                <a href="#skills_point"><span>Skills</span></a>
+                <a href="#archiving_point"><span>Archiving</span></a>
+                <a href="#projects_point"><span>Projects</span></a>
+                <a href="#career_point"><span>Career</span></a>
             </div>
         </div>
         <div class="sub_text">
@@ -38,14 +40,14 @@
                 매우 꼼꼼한 성격, 그리고 주변에게도 전달되는 열정적인 에너지가 저의 장점입니다.
             </h3>
             <div class="sub_text_btn">
-                <div class="sub_text_btn_inner"><a href="">더 알아보기 ↓</a></div>        
+                <div class="sub_text_btn_inner"><a href="#about_point">더 알아보기 ↓</a></div>        
             </div>
         </div>
     </nav>
     <section class="about">
         <div class="about_box">
-            <div class="about_title">
-                <i class="fas fa-paperclip"></i>
+            <div class="title">
+                <a href="#about_point"><i id="about_point" class="fas fa-paperclip"></i></a>
                 <div>ABOUT ME</div>
             </div>
             <div class="about_page">
@@ -107,13 +109,87 @@
         </div>
     </section>
     <section class="skills">
-        
+        <div class="title">
+            <a href="#skills_point"><i id="skills_point" class="fas fa-paperclip"></i></a>
+            <div>SKILLS</div>
+        </div>
+        <div class="skills_container">
+            <div class="skills_container_box">
+                <div class="skills_mini_container">
+                    <div class="front">
+                        <span>Front-end</span>
+                        <img src="img/front-end.png" alt="">
+                    </div>
+                </div>
+                <div class="skills_mini_container">
+                    <div class="back">
+                        <span>Back-end</span>
+                        <img src="img/back-end.png" alt="">
+                    </div>
+                    <div class="version">
+                        <span>Version Control</span>
+                        <img src="img/version-control.png" alt="">
+                    </div>
+                </div>
+                <div class="skills_mini_container">
+                    <div class="deployment">
+                        <span>Deployment</span>
+                        <img src="img/deployment.png" alt="">
+                    </div>
+                    <div class="communi">
+                        <span>Communication</span>
+                        <img src="img/communication.png" alt="">
+                    </div>
+                    <div class="certi">
+                        <span>Certificate</span>
+                        <img src="img/certificate.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="archiving">     
+    <section class="archiving">
+        <div class="title_archiving">
+            <a href="#archiving_point"><i id="archiving_point" class="fas fa-paperclip"></i></a>
+            <div>ARCHIVING</div>
+        </div>
+        <div class="archiving_page">
+            <div class="github_box">
+                <a href="https://github.com/xxxlata">
+                    <img src="img/git-hub.png" alt="">
+                </a>
+                    <a href="https://github.com/xxxlata">https://github.com/xxxlata</a>
+                <ul><span>소스 코드 저장소</span> 입니다.
+                    <li>과거 프로젝트, 프로그램, 앱의 소스 코드</li>
+                    <li>혼자서 코드 연습을 위해 끄적이던 소스 코드</li>
+                    <li>학부 시절 수강한 수업들의 코딩 과제 소스 코드</li>
+                </ul>
+            </div>
+            <div class="t_box">
+                <a href="#">
+                    <img src="img/tistory.png" alt="">
+                </a>
+                <a href="#">it-eldorado.tistory.com</a>
+                <ul><span>공부 및 지식 공유 목적의 블로그</span>입니다.
+                    <li>공부한 것을 진정한 내 것으로 만들기 위한 기록</li>
+                    <li>웹 개발자의 길을 걸으며 공부한 웹 관련 지식 정리</li>
+                    <li>학부 시절 배운 전공 수업들의 내용 복습 겸 정리</li>
+                    <li>지식 공유를 통한 선한 영향력 행사</li>
+                </ul>
+            </div>
+        </div>
     </section>
-    <section class="projects">      
+    <section class="projects">
+        <div class="title">
+            <a href="#projects_point"><i id="projects_point" class="fas fa-paperclip"></i></a>
+            <div>PROJECTS</div>
+        </div>    
     </section>
-    <section class="career">     
+    <section class="career">
+        <div class="title">
+            <a href="#career_point"><i id="career_point" class="fas fa-paperclip"></i></a>
+            <div>CAREER</div>
+        </div>     
     </section>
     <footer>
     </footer>
