@@ -69,10 +69,8 @@
     justify-content: space-between;
 }
 
-.projects_page_contents_imgs{
-    width: 45% ;
-    display: block;
-
+.projects_page_contents_imgs img{
+    width: 30%;
 }
 
 .projects_page_contents_p{
@@ -115,6 +113,10 @@
 
 .projects_page_contents_list :nth-child(5){
     vertical-align: top;
+}
+
+.hidden{
+    display: none;
 }
 
  
