@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="skills.css">
     <link rel="stylesheet" href="archiving.css">
     <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="career.css">
     <title>KJH's Portfolio</title>
 </head>
 <body>
@@ -44,10 +45,10 @@
             </div>
         </div>
     </nav>
-    <section class="about">
+    <section class="about" id="about_point">
         <div class="about_box">
             <div class="title">
-                <a href="#about_point"><i id="about_point" class="fas fa-paperclip"></i></a>
+                <a href="#about_point"><i class="fas fa-paperclip"></i></a>
                 <div>ABOUT ME</div>
             </div>
             <div class="about_page">
@@ -108,9 +109,9 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills_point">
         <div class="title">
-            <a href="#skills_point"><i id="skills_point" class="fas fa-paperclip"></i></a>
+            <a href="#skills_point"><i class="fas fa-paperclip"></i></a>
             <div>SKILLS</div>
         </div>
         <div class="skills_container">
@@ -148,9 +149,9 @@
             </div>
         </div>
     </section>
-    <section class="archiving">
+    <section class="archiving" id="archiving_point">
         <div class="title_archiving">
-            <a href="#archiving_point"><i id="archiving_point" class="fas fa-paperclip"></i></a>
+            <a href="#archiving_point"><i class="fas fa-paperclip"></i></a>
             <div>ARCHIVING</div>
         </div>
         <div class="archiving_page">
@@ -158,8 +159,9 @@
                 <a href="https://github.com/xxxlata">
                     <img src="img/git-hub.png" alt="">
                 </a>
-                    <a href="https://github.com/xxxlata">https://github.com/xxxlata</a>
-                <ul><span>소스 코드 저장소</span> 입니다.
+                    <a href="https://github.com/xxxlata">https://github.com/xxxlata</a><br>
+                    <p><span>소스 코드 저장소</span>입니다.</p>
+                <ul>
                     <li>과거 프로젝트, 프로그램, 앱의 소스 코드</li>
                     <li>혼자서 코드 연습을 위해 끄적이던 소스 코드</li>
                     <li>학부 시절 수강한 수업들의 코딩 과제 소스 코드</li>
@@ -169,8 +171,9 @@
                 <a href="#">
                     <img src="img/tistory.png" alt="">
                 </a>
-                <a href="#">it-eldorado.tistory.com</a>
-                <ul><span>공부 및 지식 공유 목적의 블로그</span>입니다.
+                <a href="#">it-eldorado.tistory.com</a><br>
+                <p><span>공부 및 지식 공유 목적의 블로그</span>입니다.</p>
+                <ul>
                     <li>공부한 것을 진정한 내 것으로 만들기 위한 기록</li>
                     <li>웹 개발자의 길을 걸으며 공부한 웹 관련 지식 정리</li>
                     <li>학부 시절 배운 전공 수업들의 내용 복습 겸 정리</li>
@@ -179,17 +182,97 @@
             </div>
         </div>
     </section>
-    <section class="projects">
-        <div class="title">
-            <a href="#projects_point"><i id="projects_point" class="fas fa-paperclip"></i></a>
+    <section class="projects" id="projects_point">
+        <div class="projects_title">
+            <a href="#projects_point"><i class="fas fa-paperclip"></i></a>
             <div>PROJECTS</div>
-        </div>    
+        </div>
+        <div class="projects_page">
+            <div class="projects_page_contents">
+                <div class="projects_page_contents_title">
+                    <span>
+                        친구가 보는 나의 성격은?
+                    </span>
+                    <span>
+                        2021.05 - 2021.06 (2人 팀 프로젝트)
+                    </span>
+                </div>
+                <div class="projects_page_contents_inside">
+                    <div class="projects_page_contents_imgs">
+                        <img id="screenshot1" src="img/1.png" alt="">
+                        <img id="screenshot2" src="img/2.png" alt="">
+                        <img id="screenshot3" src="img/3.png" alt="">
+                        <img id="screenshot4" src="img/4.png" alt="">
+                        <img id="screenshot5" src="img/5.png" alt="">
+                        <img id="screenshot6" src="img/6.png" alt="">
+                        <img id="screenshot7" src="img/7.png" alt="">
+                    </div>
+
+                    <div class="projects_page_contents_p">
+                        <p>
+                            <span>내가 생각하는 나의 성격과 친구가 생각하는 나의 성격을 비교함으로써 겉으로 보이는 나의 모습이 어떠한지 파악해볼 수 있는 웹사이트</span> 입니다. 성격 검사 웹사이트는 무수히 많지만 이런 유형의 웹사이트는 전혀 없었고, 백 엔드 개발자와 협업하는 방법을 배울 수 있는 나름 가벼운 프로젝트였기 때문에 진행하게 되었습니다.
+                            <br>
+                            <br>
+                            <span>백 엔드 개발자와 협업하는 과정</span>에 관해 많이 배울 수 있었던 프로젝트입니다. UI & UX 및 API 명세를 문서로 작성하여 소통하였습니다. 또한, 통신 과정에서 필요한 쿠키나 CORS 등의 개념에 대해서도 서로 많이 배울 수 있었습니다.
+                            <br>
+                            <br>
+                            <span>각종 애니메이션 효과와 canvas API</span> 등을 활용하여 디자인에도 공을 많이 들인 프로젝트입니다. 또한, 디자이너 없이 직접 디자인을 구상하며 UI & UX에 대해서도 많이 고민해볼 수 있었습니다.
+                            <br>
+                            <br>
+                            복수 페이지의 Next.js 웹사이트를 만들면서 <span> 라우팅, CSR, SSR, SSG</span>에 대한 개념을 더욱 확실하게 익힐 수 있었던 프로젝트입니다.
+                        </p>
+                        <div class="projects_page_contents_list">
+                            <div class="p_list_title">
+                                주요기능
+                            </div>
+                            <div>
+                                내가 생각하는 나의 성격 검사하기, <br>
+                                친구에게 나의 성격 평가 부탁하기,
+                                나의 <br>성격에 대한 나와 친구의 검사 결과 비교하기
+                            </div>
+                        </div>
+                        <div class="projects_page_contents_list">
+                            <div class="p_list_title">GitHub</div>
+                            <div><a href="https://github.com/xxxlata">https://github.com/xxxlata</a></div>
+                        </div>
+                        <div class="projects_page_contents_list">
+                            <div class="p_list_title">도메인</div>
+                            <div><a href="personality-test-by-friends.com">personality-test-by-friends.com</a></div>
+                        </div>
+                        <div class="projects_page_contents_list">
+                            <div class="p_list_title">Front-end</div>
+                            <div>Next.js, React, TypeScript, Sass</div>
+                        </div>
+                        <div class="projects_page_contents_list">
+                            <div class="p_list_title">Back-end</div>
+                            <div>Django, PostgreSQL</div>
+                        <div class="projects_page_contents_list">
+                            <div class="p_list_title">Deployment</div>
+                            <div>Vercel, GitHub, AWS (EC2, RDS, Route 53)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>    
+        </div>
     </section>
-    <section class="career">
+    <section class="career" id="career_point">
         <div class="title">
-            <a href="#career_point"><i id="career_point" class="fas fa-paperclip"></i></a>
+            <a href="#career_point"><i class="fas fa-paperclip"></i></a>
             <div>CAREER</div>
-        </div>     
+        </div>
+        <div class="career_page_container">
+            <div class="career_page">
+                <div class="career_page_logo">
+                    <div><img src="img/opengallery.png" alt=""></div>
+                </div>
+                <div></div>
+            </div>     
+        </div>
     </section>
     <footer>
     </footer>

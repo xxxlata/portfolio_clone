@@ -1,0 +1,120 @@
+.projects{
+    background-color:#1d809f;
+    padding-bottom: 3rem;
+}
+
+.projects_title{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.projects_title div{
+    color: white;
+    border-bottom: 1px solid rgba(250, 248, 248, 0.363);
+    margin-bottom: 3rem;
+}
+
+.projects_title i{
+    color:rgba(241, 239, 239, 0.288);
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.projects_title i:hover{
+    color:rgba(241, 239, 239, 0.61);
+}
+
+.projects_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects_page_contents{
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 65rem;
+    padding: 3rem;
+    box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+    margin-bottom: 3rem;
+}
+
+.projects_page_contents_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects_page_contents_title :first-child{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.projects_page_contents_title :last-child{
+    padding-top: 1rem;
+    color:rgb(156, 156, 156)
+}
+
+.projects_page_contents_inside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects_page_contents_imgs{
+    width: 45% ;
+    display: block;
+
+}
+
+.projects_page_contents_p{
+    width: 45%;
+}
+
+.projects_page_contents_p p {
+    text-align: justify;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.281);
+}
+
+.projects_page_contents_p p span{
+    color: red;
+}
+.projects_page_contents_p p :first-child{
+    font-weight: bold;
+    color: black;
+}
+
+.projects_page_contents_list{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.p_list_title::before{
+    content: "✔";
+    font-weight: bolder;
+}
+
+.projects_page_contents_list a {
+    color: cornflowerblue;
+}
+
+.projects_page_contents_list :first-child{
+    width: 36%;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.projects_page_contents_list :nth-child(5){
+    vertical-align: top;
+}
+
+ 

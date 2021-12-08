@@ -1,10 +1,4 @@
-#archiving_point{
-    color:rgba(241, 239, 239, 0.288);
-    font-size: 2rem;
-    padding-right: 1rem;
-}
-
-#archiving_point:hover{
+.title_archiving i:hover{
     color:rgba(241, 239, 239, 0.61);
 }
 
@@ -22,6 +16,12 @@
 .title_archiving div{
     color: white;
     border-bottom: 1px solid rgba(250, 248, 248, 0.363);
+}
+
+.title_archiving i {
+    color:rgba(241, 239, 239, 0.288);
+    font-size: 2rem;
+    padding-right: 1rem;
 }
 
 .archiving{
@@ -57,11 +57,12 @@
 
 .github_box span{
     font-weight: bolder;
+    padding-left: 1rem;
 }
 
 .github_box a{
     text-decoration: underline;
-    padding-left: 2.3rem;
+    padding-left: 1rem;
     color: cornflowerblue;
 }
 
@@ -81,12 +82,13 @@
 
 .t_box a{
     text-decoration: underline;
-    padding-left: 2.3rem;
     color: cornflowerblue;
+    padding-left: 1rem;
 }
 
 .t_box span{
     font-weight: bolder;
+    padding-left: 1rem;
 }
 
 

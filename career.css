@@ -1,0 +1,15 @@
+.career{
+    background-color: #f5f5f5;
+}
+
+.career_page_container{
+    display: flex;
+    justify-content: center;
+}
+
+.career_page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.
