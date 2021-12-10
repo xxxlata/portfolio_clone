@@ -17,7 +17,6 @@
 .projects_title div{
     color: white;
     border-bottom: 1px solid rgba(250, 248, 248, 0.363);
-    margin-bottom: 3rem;
 }
 
 .projects_title i{
@@ -67,10 +66,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.projects_page_contents_imgs{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects_page_contents_imgs img{
-    width: 30%;
+    width: 60%;
+    display: block;
 }
 
 .projects_page_contents_p{
@@ -91,32 +99,31 @@
     color: black;
 }
 
-.projects_page_contents_list{
+.spec_list_content{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
-.p_list_title::before{
+dt::before{
     content: "✔";
     font-weight: bolder;
 }
 
-.projects_page_contents_list a {
+.spec_list_content a {
     color: cornflowerblue;
 }
 
-.projects_page_contents_list :first-child{
-    width: 36%;
+dt{
+    width: 20%;
     font-weight: bold;
     padding-bottom: 1rem;
 }
 
-.projects_page_contents_list :nth-child(5){
-    vertical-align: top;
+dd{
+    width: 70%;
 }
 
-.hidden{
-    display: none;
-}
+
 
  

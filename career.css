@@ -11,10 +11,9 @@
 }
 
 .career_page_p{
-    display: flex;
-    flex-wrap: wrap;
     padding: 0 1rem;
     border-left: 1px solid rgba(122, 122, 122, 0.274);
+    width: 45%;
 }
 
 .career_page_logo{
@@ -26,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 3rem;
 }
 
 .career_page_logo img{
@@ -35,8 +35,27 @@
 
 .career_page_one{
     border-bottom: 1px solid rgba(122, 122, 122, 0.274);
+    margin: 0 1rem;
+}
+
+.career_page_one_title span{
+    color: rgba(92, 92, 92, 0.74);
+    font-size: 1.2rem;
+}
+
+.career_page_one p > span{
+    font-weight: bolder;
 }
 
 .career_page_two{
+    padding: 0 1rem;
+}
 
+.career_page_two_title span{
+    color: rgba(92, 92, 92, 0.74);
+    font-size: 1rem;
+}
+
+.career_page_two ul{
+    padding: 1.1rem;
 }
