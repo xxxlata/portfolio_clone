@@ -25,6 +25,7 @@ nav{
     padding: 1.5rem 0;
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.616);
+    position: relative;
 }
 
 .logo{
@@ -45,6 +46,51 @@ nav{
     color: inherit;
     text-decoration: none;
 }
+
+.nav_box_hamburger{
+    display: none;
+    border: 1px solid rgba(212, 212, 212, 0.616);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+#hamburger_menu {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    color: black;
+    display: none;
+    top: 4rem;
+    right: -2rem;
+}
+
+#hamburger_menu a {
+    padding: 1rem 0;
+    text-decoration: none;
+    color: rgba(109, 109, 109, 0.616);
+}
+
+#hamburger_menu li {
+    padding: 1rem 0;
+}
+
+#close {
+    font-size: 1.3rem;
+    color: rgba(109, 109, 109, 0.616);
+}
+
+#close:hover{
+    color: tomato;
+}
+
+#hamburger_menu a:hover {
+    color: tomato;
+}
+
+
+
+
 
 .sub_text{
     text-align: center;
@@ -102,4 +148,50 @@ nav{
 
 .sub_text_btn_inner:hover{
     background-color: rgb(253, 67, 34);
+}
+
+@media screen and (max-width: 993px) {
+    .nav_box{
+        background-color: #fff;
+        box-shadow: -3px 1px 5px white;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+    }
+
+    .logo a {
+        color:rgba(70, 60, 53, 1);
+    }
+
+    .logo a:hover{
+        color: tomato;
+    }
+
+    .nav_box_menu{
+        display: none;
+    }
+
+    .nav_box_hamburger{
+        display: block;
+    }
+
+    .nav_box_hamburger:hover{
+        background-color: rgba(212, 212, 212, 0.616);
+        cursor: pointer;
+    }
+
+    .nav_box_hamburger > i {
+        font-size: 2rem;
+        color: rgba(109, 109, 109, 0.616);
+    }
+
+}
+
+@media screen and (max-width:582px) {
+    .sub_text_area {
+        font-size: 2.5rem;
+    }
+
+    .sub_text h3 {
+        font-size: 1rem;
+    }
 }

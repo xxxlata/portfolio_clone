@@ -59,3 +59,47 @@
 .career_page_two ul{
     padding: 1.1rem;
 }
+
+@media screen and (max-width:993px) {
+    .career_page_logo {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 200px;
+        background-color: white;
+        border: 0.5px solid rgba(122, 122, 122, 0.274);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 3rem;
+    }
+
+    .career_page_logo img {
+        width: 9rem;
+        display: block;
+    }
+}
+
+@media screen and (max-width:582px) {
+    .career_page_logo {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 200px;
+        background-color: white;
+        border: 0.5px solid rgba(122, 122, 122, 0.274);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 3rem;
+    }
+
+    .career_page_logo img {
+        width: 13rem;
+        display: block;
+    }
+
+    .career_page_p {
+        padding: 0 1rem;
+        border-left: 1px solid rgba(122, 122, 122, 0.274);
+        width: 100%;
+    }
+}

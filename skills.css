@@ -104,3 +104,16 @@
 .certi img{
     width: 55%;
 }
+
+@media screen and (max-width:993px) {
+    .deployment{
+        margin-top: 2rem;
+    }
+}
+
+
+@media screen and (max-width:582px) {
+    .back {
+        margin-top: 2rem;
+    }
+}
